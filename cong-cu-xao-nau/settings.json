@@ -1,0 +1,11 @@
+{
+  "gemini_api_key": "AQ.Ab8RN6LAPykeX_3tg2cxgfYVOcAm9zejgSYqa6mZPLXgL2fNlg",
+  "backup_gemini_api_key": "AQ.Ab8RN6JLSF5hvTk42FaM0pxJqlZRmKWtYFmRVU0hQiDlEm8vYg",
+  "voice_model": "gemini-3.8-flash-tts",
+  "voice_name": "Puck",
+  "whisper_model": "small.en",
+  "whisper_device": "cuda",
+  "proxy_height": 360,
+  "hq_height": 1080,
+  "ocr_fps": 1
+}

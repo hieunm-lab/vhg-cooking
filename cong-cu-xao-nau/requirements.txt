@@ -1,0 +1,11 @@
+gradio>=6
+pandas
+requests
+numpy
+opencv-python-headless
+pillow
+yt-dlp[default]
+faster-whisper
+rapidocr-onnxruntime
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*

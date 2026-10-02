@@ -1,0 +1,51 @@
+# === BẢN ĐÓNG GÓI NẶNG (3.6GB) ===
+# Thư mục CongCuXaoNau chứa file .exe đã build cùng thư viện nhị phân nặng, không đưa lên Git
+CongCuXaoNau/
+*.spec
+build/
+dist/
+
+# === DỮ LIỆU VIDEO & MEDIA NẶNG ===
+# Video nguồn, trận đấu và clip trích xuất
+cong-cu-xao-nau/data/games/*
+!cong-cu-xao-nau/data/games/.gitkeep
+cong-cu-xao-nau/data/clips/*
+!cong-cu-xao-nau/data/clips/.gitkeep
+cong-cu-xao-nau/data/experts/*
+!cong-cu-xao-nau/data/experts/.gitkeep
+
+# Các định dạng media
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.ts
+*.webm
+*.flv
+*.mp3
+*.wav
+
+# === MÔ HÌNH VÀ FILE NHỊ PHÂN ===
+*.bin
+*.onnx
+*.pt
+models/
+_internal/
+bin/
+
+# === PYTHON CACHE & MÔI TRƯỜNG ẢO ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+env/
+
+# === HỆ THỐNG & EDITOR ===
+.DS_Store
+Thumbs.db
+.claude/
+.idea/
+.vscode/
