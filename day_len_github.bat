@@ -1,10 +1,8 @@
 @echo off
-chcp 65001 >nul
 cd /d "%~dp0"
 
 echo ======================================================================
-echo   ĐANG TẢI DỰ ÁN LÊN GITHUB
-echo   Repository: https://github.com/hieunm-lab/vhg-cooking.git
+echo   DANG TAI DU AN LEN GITHUB: hieunm-lab/vhg-cooking
 echo ======================================================================
 echo.
 
@@ -13,12 +11,12 @@ git push -u origin main
 echo.
 if %errorlevel% equ 0 (
     echo ======================================================================
-    echo   [THÀNH CÔNG] Toàn bộ mã nguồn đã được tải lên GitHub thành công!
+    echo   [THANH CONG] Toan bo ma nguon da duoc tai len GitHub thanh cong!
     echo ======================================================================
 ) else (
     echo ======================================================================
-    echo   [LƯU Ý] Nếu có cửa sổ trình duyệt hiện ra, bạn chỉ cần bấm xác thực
-    echo   rồi chạy lại file này là xong.
+    echo   [LUU Y] Neu co cua so trinh duyet hien ra, ban chi can bam xac thuc
+    echo   roi chay lai file nay la xong.
     echo ======================================================================
 )
 echo.
